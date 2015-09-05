@@ -27,7 +27,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jXe-Sa-G8T">
-                                <rect key="frame" x="203" y="480" width="46" height="30"/>
+                                <rect key="frame" x="203" y="480" width="195" height="30"/>
                                 <color key="backgroundColor" red="0.66696648848684215" green="1" blue="0.79579050760520131" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="Button">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -39,8 +39,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="jXe-Sa-G8T" firstAttribute="leading" secondItem="Pkn-oP-CPE" secondAttribute="leading" id="6ux-Uc-iWE"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Pkn-oP-CPE" secondAttribute="bottom" constant="20" id="O2F-AK-gdk"/>
-                            <constraint firstItem="jXe-Sa-G8T" firstAttribute="centerX" secondItem="Pkn-oP-CPE" secondAttribute="centerX" constant="-74.5" id="abo-56-1ZU"/>
+                            <constraint firstItem="jXe-Sa-G8T" firstAttribute="width" secondItem="Pkn-oP-CPE" secondAttribute="width" id="Vau-k5-r2B"/>
                             <constraint firstItem="Pkn-oP-CPE" firstAttribute="top" secondItem="jXe-Sa-G8T" secondAttribute="bottom" constant="40" id="aqd-Ns-eKI"/>
                             <constraint firstAttribute="centerX" secondItem="Pkn-oP-CPE" secondAttribute="centerX" id="pVl-l7-c4U"/>
                         </constraints>
