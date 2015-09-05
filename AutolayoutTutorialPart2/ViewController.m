@@ -24,4 +24,15 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)buttonTapped:(UIButton *)sender
+{
+    if ([[sender titleForState:UIControlStateNormal] isEqualToString:@"Button"]) {
+        [sender setTitle:@"This Button Has a Long Title"
+                forState:UIControlStateNormal];
+    } else {
+        [sender setTitle:@"Button" forState:UIControlStateNormal];
+    }
+}
+
+
 @end
